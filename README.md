@@ -1,43 +1,53 @@
 # ThunderKILL
 
-ThunderKILL is based on the [Thundervolt](https://github.com/mackieks/thundervolt/tree/main)  by  [YveltalGriffin](https://github.com/mackieks) an open source platform for undervolting the Nintendo Wii's.
-ThunderKILL takes the original concept and tries to go overkill with them, adding more features.
-New features:
-- USB C Power deliver
+ThunderKILL is based on the [Thundervolt](https://github.com/mackieks/thundervolt/tree/main) by [YveltalGriffin](https://github.com/mackieks) an open source platform for undervolting the Nintendo Wiis.
+ThunderKILL takes the original concept and tries to go overkill with more features explicitly not inculded in the Thundervolt.
+### New features:
+- USB-C Power delivery
 - Battery charge controller
 - Fan and temperature controller
-- RGB led controller
+- RGB LED controller
 - Current sensing
-- 5V boost
+- 5V boost regulator
 - E-Fuse on the PD power in
 - Resettable fuse on the battery connection
 
-Existing features from Thundervolt:
-- 1V Buck
-- 1.15V Buck
-- 1.8V Buck
-- 3.3V Buck Boost
+### Existing features from Thundervolt:
+- 1V buck regulator
+- 1.15V buck regulator
+- 1.8V buck regulator
+- 3.3V buck boost regulator
 
 All regulators are I2C controlled and high efficiency (η > 90%) and can be(/will be) controllable from a homebrew app. Along with the data from the I2C current/voltage/power sensing and temperature sensing of the board and the Wii.
-The ThunderKILL has significantly more output pads than the original Thundervolt, as it is designed to integrate with other boards beyond the Wii it self, supplying easily available power, along with all the new features like PD negotiation, fan and led outputs.
+The ThunderKILL has significantly more output pads than the original Thundervolt, as it is designed to integrate with other boards beyond the Wii itself, supplying easily available power, along with all the new features like PD negotiation, fan and LED outputs.
 
-NOTE: ThunderKILL is still in the prototype phase, and is untested, and the firmware for it has yet to be developed. I don't recommend anyone print and manufacture the ThunderKILL yet till development is done and tested. This project is currently only for reference.
+### ToDo:
+- Final pass on board
+- Send to printing
+- Solder components
+- Develop firmware
+- Test in isolation
+- Test on Wii
+- Develop homebrew app
+
+### NOTE: ThunderKILL is still in the prototype phase, and is untested, and the firmware for it has yet to be developed. I don’t recommend manufacturing ThunderKILL PCBs until development and testing are complete. This project is currently only for reference.
 
 (This github page is still WIP, and will change as the project continues)
 
 ## Screenshots
 
-<img src="Images/TopRender.png" width="600" height="800" />
+<img src="Images/TopRender.png" width="600" />
 
-<img src="Images/BottomRender.png" width="600" height="800" />
+<img src="Images/BottomRender.png" width="600" />
 
-<img src="Images/TraceView.png" width="600" height="800" />
+<img src="Images/TraceView.png" width="600" />
 
 ## Credits
 
 ThunderKILL hardware designed by [RoseDaggerDev](https://github.com/RoseDaggerDev)
 
 Original Thundervolt credits:
+
 Thundervolt hardware designed by [YveltalGriffin](https://github.com/mackieks)
 
 Thundervolt firmware by [loopj ](https://github.com/loopj)
