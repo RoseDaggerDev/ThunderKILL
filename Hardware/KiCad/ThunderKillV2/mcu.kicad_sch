@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "86ef9e5a-9248-442b-8383-1f206009b2ff")
 	(paper "A4")
+	(title_block
+		(title "ThunderKILL")
+		(date "2025-09-05")
+		(rev "2.1")
+		(company "RoseDaggerDev                                               Original Credits: YveltalGriffin")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "b407b016-83a7-4e2c-9d96-091cd9ca1f19")
 	(paper "A4")
+	(title_block
+		(title "ThunderKILL")
+		(date "2025-09-05")
+		(rev "2.1")
+		(company "RoseDaggerDev                                               Original Credits: YveltalGriffin")
+	)
 	(lib_symbols
 		(symbol "1v15:+1V15"
 			(power)
