@@ -27,11 +27,8 @@ NOTE: ThunderKILL is still in the prototype phase, and is untested, and the firm
 
 ## Screenshots
 
-<img src="images/TopRender.png" /><img src="images/BottomRender.png" />
-3D Render
-
-<img src="images/TraceView.png" />
-Layout view
+<img src="Images/TopRender.png" width="500" height="600" /><img src="Images/BottomRender.png" width="489" height="600" />
+<img src="Images/TraceView.png" width="500" height="600" />
 
 ## Credits
 
